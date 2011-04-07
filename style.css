@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  font: 100% Helvetica, Arial;
+  color: #333;
+  background-color: #99CCFF;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.in {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: black;
+  margin-bottom: 1em;
+  color: white;
+  height: 50px;
+  border-bottom: 3px solid blue;
+}
+
+#header .logo {
+  float: left;
+}
+
+#header .info {
+  width: 350px;
+  background-color: black;
+}
+
+#header .navbar {
+  float: right;
+  /*
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  */
+}
+
+#header  .sitename {
+  font-size: 32pt;
+}
+
+#header .tagline {
+  font-size: 18pt;
+}
+
+table {
+}
+
+table td {
+  border: 1px solid gray;
+  padding: .5em;
+}
+
+.even {
+  background-color: #EDF3FF
+}
+
+.odd {
+  background-color: #D5DBE6;
+}
+
+
+table td {
+  border: 1px solid gray;
+  padding: .5em;
+}
+
+#content {
+  margin-top: 3em;
+}
+
+
+#content .past {
+  background-color: #eee;
+}
+
+.past h1 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.campaign {
+  background: white;
+  border: 2px solid gray;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  background-clip: padding-box;
+  padding: 15px 10px 10px 10px;
+}
+
+.campaign .photo {
+  width: 250;
+  float: right;
+  border: 1px solid gray;
+}
