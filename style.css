@@ -14,9 +14,8 @@ body {
   margin-right: auto;
 }
 
-#header {
+#header, #footer {
   background-color: black;
-  margin-bottom: 1em;
   color: white;
   height: 50px;
   border-bottom: 3px solid blue;
@@ -32,7 +31,6 @@ body {
 }
 
 #header .navbar {
-  float: right;
   /*
   position: absolute;
   right: 0px;
@@ -79,6 +77,13 @@ table td {
   background-color: #eee;
 }
 
+.past {
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  background-clip: padding-box;
+}
+
 .past h1 {
   font-size: 120%;
   font-weight: bold;
@@ -86,16 +91,46 @@ table td {
 
 .campaign {
   background: white;
-  border: 2px solid gray;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
   border-radius: 9px;
   background-clip: padding-box;
+}
+
+.pad {
   padding: 15px 10px 10px 10px;
+}
+
+.past .old {
+  border-bottom: 1px solid black;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.past .image {
+  width: 100;
+  height: 100;
+  background-color: red;
+  margin: auto;
 }
 
 .campaign .photo {
   width: 250;
+  height: 250;
   float: right;
   border: 1px solid gray;
+}
+
+.campaign .intro {
+  padding-bottom: 1em;
+}
+
+.campaign .progress {
+  padding-bottom: 1em;
+}
+
+.details p {
+  margin-bottom: 1em;
 }
