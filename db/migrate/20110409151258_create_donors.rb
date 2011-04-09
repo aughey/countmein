@@ -1,7 +1,9 @@
 class CreateDonors < ActiveRecord::Migration
   def self.up
     create_table :donors do |t|
-
+      t.string :firstname
+      t.string :lastname
+      t.string :email
       t.timestamps
     end
   end
